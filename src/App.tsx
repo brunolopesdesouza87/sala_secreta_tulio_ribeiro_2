@@ -26,7 +26,7 @@ export default function App() {
             className="hidden md:flex items-center gap-2 bg-brand-green text-brand-dark px-5 py-2 rounded-full font-bold text-sm hover:scale-105 transition-transform"
           >
             <MessageCircle size={18} />
-            ENTRAR NO GRUPO
+            ENTRAR NO GRUPO GRATUITO
           </a>
         </div>
       </nav>
@@ -68,7 +68,7 @@ export default function App() {
                 className="group relative inline-flex items-center justify-center gap-3 bg-brand-green text-brand-dark px-8 py-5 rounded-2xl font-bold text-lg overflow-hidden transition-all hover:shadow-[0_0_30px_rgba(0,255,127,0.3)]"
               >
                 <MessageCircle className="group-hover:rotate-12 transition-transform" />
-                QUERO ENTRAR NA SALA
+                QUERO ENTRAR NA SALA (GRATUITO)
                 <ArrowRight size={20} className="group-hover:translate-x-1 transition-transform" />
               </a>
             </div>
@@ -100,12 +100,12 @@ export default function App() {
               <div className="absolute inset-0 bg-brand-green/20 blur-[80px] rounded-full -z-10 scale-110" />
               
               <img
-                src="https://i.imgur.com/9KHVDEI.png"
+                src="https://i.imgur.com/esJaCzq.png"
                 alt="Tulio Ribeiro"
                 className="w-full h-auto object-contain rounded-3xl shadow-2xl"
                 style={{
-                  maskImage: 'radial-gradient(circle at center, black 60%, transparent 100%)',
-                  WebkitMaskImage: 'radial-gradient(circle at center, black 60%, transparent 100%)'
+                  maskImage: 'radial-gradient(circle at center, black 75%, transparent 100%)',
+                  WebkitMaskImage: 'radial-gradient(circle at center, black 75%, transparent 100%)'
                 }}
                 onError={(e) => {
                   e.currentTarget.src = "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=800&h=1000";
@@ -198,7 +198,7 @@ export default function App() {
             className="inline-flex items-center gap-3 bg-brand-green text-brand-dark px-10 py-5 rounded-2xl font-bold text-xl hover:scale-105 transition-transform shadow-[0_20px_50px_rgba(0,255,127,0.2)]"
           >
             <MessageCircle />
-            ENTRAR NO GRUPO AGORA
+            ENTRAR NO GRUPO GRATUITO AGORA
           </a>
           
           <p className="mt-6 text-sm text-white/40 italic">
@@ -230,7 +230,7 @@ export default function App() {
           className="flex items-center justify-center gap-3 bg-brand-green text-brand-dark w-full py-4 rounded-2xl font-bold shadow-2xl active:scale-95 transition-transform"
         >
           <MessageCircle size={20} />
-          GARANTIR MINHA VAGA
+          GARANTIR MINHA VAGA GRATUITA
         </a>
       </div>
     </div>
